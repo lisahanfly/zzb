@@ -1,0 +1,56 @@
+<div class="m-detail">
+  <header>
+     <ul>
+      <li>
+        <i class="yo-ico" action-type="back">&#xe679;</i>
+      </li>
+      <li>
+        <div>
+          <p>爱美日记系列</p>
+        </div>
+      </li>
+      <li>
+        <i class="yo-ico"></i>
+      </li>
+    </ul>
+   </header>
+   <nav>
+     <ul>
+       <li class="active" action-type="click">综合</li>
+       <li action-type="click">折扣<i class="yo-ico">&#xe688;</i></li>
+       <li action-type="click">价格<i class="yo-ico">&#xe688;</i></li>
+       <li action-type="click">
+         <i class="yo-ico">&#xe729;</i>
+       </li>
+     </ul>
+   </nav>
+   <section ms-visible="!isShowLoading">
+     <div class="oo" spa-widget="scroll">
+       <div>
+
+         <div class="goods-wraper" ms-repeat-value="detailinfo">
+         <div class="goods-container">
+           <div class="goods-left">
+             <img ms-src="value.imgsrc">
+           </div>
+           <div class="goods-right">
+             <p ms-text="value.title"></p>
+             <div ms-text="value.presentprice"></div>
+             <span ms-text="value.originalprice"></span>
+             <i ms-text="value.discount"></i>
+           </div>
+         </div>
+       </div>
+       </div>
+     </div>
+   </section>
+  <div class="yo-loading" ms-visible="isShowLoading">
+    <div class="inner"><i class="yo-ico"></i><span>加载中....</span></div>
+  </div>
+
+   <!-- logo -->
+
+   <div class="logo">
+     <img src="./images/ic_zzb.png" alt="">
+   </div>
+</div>

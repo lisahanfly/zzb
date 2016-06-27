@@ -1,0 +1,28 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/makemoney/images/goods-info1.png",
+      "title": "买就送 爱美日记-蓝莓水肌颜润面膜+玫瑰花原液洗面奶+金桂花眼贴",
+      "presentprice":"￥128.00",
+      "originalprice":"￥168",
+      "discount":"7.6折"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods-info2.png",
+      "title": "买就送 爱美日记-桂花面膜+玻尿酸补水隐形面膜+玫瑰花原液洗面奶",
+      "presentprice":"￥128.00",
+      "originalprice":"￥168",
+      "discount":"7.6折"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods-info3.png",
+      "title": "买就送 爱美日记-鲜芦荟面膜+绿豆泥面膜+金桂花面膜",
+      "presentprice":"￥128.00",
+      "originalprice":"￥168",
+      "discount":"7.6折"
+    }
+  ]
+}

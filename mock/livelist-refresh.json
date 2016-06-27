@@ -1,0 +1,23 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "images": "/makemoney/images/goods4.jpg",
+      "title": "refresh赚赚帮1"
+    },
+    {
+      "images": "/makemoney/images/goods3.png",
+      "title": "refresh赚赚帮2"
+    },
+    {
+      "images": "/makemoney/images/goods2.jpg",
+      "title": "refresh赚赚帮3"
+    },
+    {
+      "images": "/makemoney/images/goods1.jpg",
+      "title": "refresh赚赚帮4"
+    }
+  ]
+}

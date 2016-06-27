@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "h_id": "5",
+            "h_title": "欢迎页面2",
+            "h_desc": "",
+            "h_img": "http://zzbmall.cn/data/upload/mobile/home/04967474283332926.jpg",
+            "h_keyword": "",
+            "h_sort": "255",
+            "h_type": "",
+            "h_multi_keyword": null
+        },
+        {
+            "h_id": "1",
+            "h_title": "欢迎页面",
+            "h_desc": "",
+            "h_img": "http://zzbmall.cn/data/upload/mobile/home/04962594331391108.jpg",
+            "h_keyword": "",
+            "h_sort": "254",
+            "h_type": "",
+            "h_multi_keyword": null
+        }
+    ],
+    "error": false,
+    "message": "success",
+    "code": 1
+}

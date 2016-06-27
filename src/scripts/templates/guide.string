@@ -1,0 +1,7 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" ms-repeat-value="guideList">
+      <img ms-src="value.h_img">
+    </div>
+  </div>
+</div>

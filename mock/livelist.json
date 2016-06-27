@@ -1,0 +1,31 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/makemoney/images/goods1.jpg",
+      "title": "韩束系列1"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods2.jpg",
+      "title": "韩束系列2"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods3.png",
+      "title": "韩束系列3"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods4.jpg",
+      "title": "韩束系列4"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods1.jpg",
+      "title": "韩束系列5"
+    },
+    {
+      "imgsrc": "/makemoney/images/goods2.jpg",
+      "title": "韩束系列6"
+    }
+  ]
+}

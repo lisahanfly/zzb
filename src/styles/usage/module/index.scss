@@ -1,0 +1,166 @@
+.m-index{
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .l-container{
+    @include flex(1);
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    .m-home{
+      // width:100%;
+      @include flexbox();
+      @include flex-direction(column);
+      height:100%;
+      > *{
+        width:100%;
+      }
+      header{
+        background: #fff;
+        height:.44rem;
+        ul{
+          @include flexbox();
+          @include align-items(center);
+          @include justify-content(center);
+          height:100%;
+          li{
+            height:100%;
+            &:nth-child(1){
+              @include flexbox();
+              @include align-items(center);
+              @include justify-content(center);
+              width:.7rem;
+              img{
+                width:100%;
+                height:auto;
+              }
+            }
+            &:nth-child(3){
+              @include flexbox();
+              width:.44rem;
+              @include align-items(center);
+              @include justify-content(center);
+              i{
+                font-size:.28rem;
+              }
+            }
+            &:nth-child(2){
+              @include flex(1);
+              width:100%;
+              @include flexbox();
+              @include align-items(center);
+              @include justify-content(center);
+              @include box-sizing(border-box);
+              div{
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+                @include box-sizing(border-box);
+                border:1px solid #ccc;
+                border-radius: .05rem;
+                padding:0 5px;
+                i{
+                  font-size: .2rem;
+                  height:24px;
+                  line-height: 24px;
+                  padding-right:.05rem;
+                  @include flexbox();
+                  @include border(0 1px 0 0,#ddd);
+                }
+                input{
+                  display: block;
+                  width:1.8rem;
+                  height:.3rem;
+                  border:0;
+                  padding-left: 5px
+                }
+              }
+            }
+          }
+        }
+      }
+      nav{
+        background: #333;
+        height:.4rem;
+        width:100%;
+        ul{
+          height:100%;
+          color:#fff;
+          overflow: hidden;
+          width:910px;
+          @include flexbox();
+          li{
+            @include box-sizing(border-box);
+            width:70px;
+            text-align: center;
+            line-height: .4rem;
+            font-size: .1rem;
+            &.active{
+              border-bottom: .02rem solid #ec0052;
+              color:red;
+            }
+          }
+        }
+      }
+      banner{
+        height:1.7rem;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      section{
+        @include flex(1);
+        width:100%;
+        overflow: hidden;
+        dl{
+          margin-top:.05rem;
+          width:100%;
+          img{width:100%;}
+          dd{
+            width: 100%;
+            height:.3rem;
+            background-color: #fff;
+            line-height: .3rem;
+            padding-left: .1rem;
+            @include border(0 0 1px 0, #d9d9d9);
+          }
+        }
+      }
+    }
+
+  }
+  footer{
+    width:100%;
+    height:.44rem;
+    background: #1b1b1b;
+    ul{
+      @include flexbox();
+      @include box-sizing(border-box);
+      width:100%;
+      height:100%;
+      li{
+        @include flex(1);
+        @include flexbox();
+        @include flex-direction(column);
+        @include align-items(center);
+        @include justify-content(center);
+        color:rgba(255, 255, 255, 0.7);
+        &.active{
+            color:rgba(255, 255, 255, 1);
+        }
+        i,b{
+          display: block;
+        }
+        i{
+          font-size:.24rem;
+          line-height: .24rem;
+        }
+        b{
+          font-weight: normal;
+          font-size: .12rem;
+        }
+      }
+    }
+  }
+}

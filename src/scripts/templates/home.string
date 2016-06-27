@@ -1,0 +1,179 @@
+<div class="m-home">
+    <header>
+       <ul>
+        <li>
+          <img src="/makemoney/images/logo.png" alt="">
+        </li>
+        <li>
+          <div>
+            <i class="yo-ico">&#xe6b5;</i>
+            <input type="text" placeholder="搜索">
+          </div>
+        </li>
+        <li>
+          <i class="yo-ico">&#xe623;</i>
+        </li>
+      </ul>
+     </header>
+    <nav >
+      <div class="nav-scroll" spa-widget="scroll" data-scroll-id="navlistscroll">
+        <ul>
+          <li class="active" action-type="tab.slide">首页</li>
+          <li action-type="tab.slide">彩妆护肤</li>
+          <li action-type="tab.slide">个人护理</li>
+          <li action-type="tab.slide">时尚箱包</li>
+          <li action-type="tab.slide">时尚鞋靴</li>
+          <li action-type="tab.slide">装扮配饰</li>
+          <li action-type="tab.slide">时尚服饰</li>
+          <li action-type="tab.slide">家纺布艺</li>
+          <li action-type="tab.slide">数码产品</li>
+          <li action-type="tab.slide">生活百货</li>
+          <li action-type="tab.slide">保健养生</li>
+          <li action-type="tab.slide">免税区</li>
+          <li action-type="tab.slide">体育用品</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="swiper-container" id="nav-list-swiper">
+      <div class="swiper-wrapper" id="swiper-wrapper">
+        <div class="swiper-slide">
+          <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+            <div>
+              <div class="head">
+                  <img src="/makemoney/images/arrow.png" />
+                  <span>下拉刷新...</span>
+              </div>
+              <banner>
+                <div class="swiper-container" id="banner-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/makemoney/images/banner1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/makemoney/images/banner2.jpg" alt=""></div>
+                  </div>
+                  <!-- 如果需要分页器 -->
+                  <div class="swiper-pagination"></div>
+                </div>
+              </banner>
+                <dl ms-repeat-value="homelist" action-type="goto.detail">
+                  <dt>
+                    <img ms-src="value.images">
+                  </dt>
+                  <dd ms-text="value.title"></dd>
+                </dl>
+                <div class="foot">
+                    <img src="/makemoney/images/arrow.png" />
+                    <span>上拉加载更多...</span>
+                </div>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section spa-widget="scroll">
+            <div>
+              <dl ms-repeat-value="homebag" action-type="goto.detail">
+                <dt>
+                  <img ms-src="value.banner_pic">
+                </dt>
+                <dd ms-text="value.brand_name"></dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+</div>

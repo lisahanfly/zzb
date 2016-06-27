@@ -1,0 +1,14 @@
+<div class="m-shopcar">
+  <header>
+    <p>购物车</p>
+   </header>
+   <section>
+     <div class="empty">
+       <img src="/makemoney/images/ic_cart_empty_icon.png" alt="">
+     </div>
+     <p>购物车还是空的哦</p>
+     <div class="goindex" action-type="goto.index">
+       <p>去逛逛</p>
+       </div>
+   </section>
+</div>

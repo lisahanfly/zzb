@@ -1,0 +1,28 @@
+<div class="m-index">
+  <div class="l-container">
+  </div>
+  <footer>
+    <ul>
+      <li class="active"  action-type="switch.tabs" data-tag="home">
+        <i class="yo-ico">&#x3478;</i>
+        <b>主页</b>
+      </li>
+      <li action-type="switch.tabs" data-tag="fenlei">
+        <i class="yo-ico">&#x3557;</i>
+        <b>分类</b>
+      </li>
+      <li  action-type="switch.tabs" data-tag="shopcar">
+        <i class="yo-ico">&#xe730;</i>
+        <b>购物车</b>
+      </li>
+      <li action-type="switch.tabs" data-tag="message">
+        <i class="yo-ico">&#xe604;</i>
+        <b>消息</b>
+      </li>
+      <li action-type="switch.tabs" data-tag="my">
+        <i class="yo-ico">&#xe606;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
+</div>
